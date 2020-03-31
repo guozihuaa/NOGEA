@@ -8,6 +8,7 @@ NOGEA: Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity
 - beanplot
 - dplyr
 
+## Usage
 All devtools functions accept a path as an argument, e.g.
 `load_all("path/to/mypkg")`. If you don't specify a path, devtools will
 look in the current working directory - this is recommended practice.
