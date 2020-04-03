@@ -18,4 +18,5 @@ Rapid development of high-throughput technologies has permitted the identificati
 ## Example
 
 # Citation
-if you use NOGEA or NOGEA related methods please cite: 
+if you use NOGEA or NOGEA related methods please cite:
+Guo Z, Fu Y, Huang C, Zheng C, Wu Z, Chen X, et al. NOGEA: Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Drug Repositioning. bioRxiv. 2020:2020.04.01.019901. doi: 10.1101/2020.04.01.019901.
