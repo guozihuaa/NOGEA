@@ -50,7 +50,7 @@ Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Dr
 
 * `multi_DAG_class` Disease-gene classification based on the gene entropy value.
 
-## Example
+## Workfolow Example
 
 # Citation
 if you use NOGEA or NOGEA related methods please cite:
