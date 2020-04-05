@@ -88,11 +88,11 @@ Disease-gene classification based on the gene entropy value
 multi_DAG_class(entropy_list = entropy_list)
 ``` 
 #### Arguments
-- `entropy_lis`
+- `entropy_list` the DAG entropy values for multiple diseases obtained with the function `mutildisease_entropy`
 #### Details 
 
 #### Value 
-
+An object of the class data.frame is a dataframe containing the entropy values and classfication of DAGs in each disease 
 #### Examples  
 ```
 dag_class_result <- multi_DAG_class(entropy_list = entropy_list)
