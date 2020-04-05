@@ -31,7 +31,7 @@ Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Dr
 ## Reference manual
 
 ### Function:
-* `mutildisease_entropy` calcualte gene entropy for each DAG in each disease.
+* `mutildisease_entropy` *calcualte gene entropy for each DAG in each disease.*
 
 ### Description
 
