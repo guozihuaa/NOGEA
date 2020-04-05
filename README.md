@@ -11,10 +11,11 @@ Rapid development of high-throughput technologies has permitted the identificati
 NOGEA: Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Drug Repositioning
 
 ## Author
-Zihu Guo
+Zihu Guo <br>
+Affilication: Center of Bioinformatics, Northwest A & F University
 
 ## Maintainer
-Zihu Guo 
+Zihu Guo <br>
 Email: <guozihu2010@yahoo.com>
 
 ## Description
@@ -33,9 +34,9 @@ Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Dr
 * `mutildisease_entropy` *calcualte gene entropy for each DAG in each disease.* 
 
 ------------------------------------------------------------------------------
-*  Description
+###  Description
 Calcualte gene entropy for each DAG in each disease
-*  Usage
+###  Usage
 ```
 mutildisease_entropy(dagassociation = disease_gene,
                                      diseaseids = names(disease_gene),
@@ -46,7 +47,7 @@ mutildisease_entropy(dagassociation = disease_gene,
                                      scales = T)
 ```
      
-*  Arguments
+###  Arguments
 - `dagassociation` a list of DAG vectors. Each DAG vector contain the gene names of the DAGs for that disease.
 - `diseaseids` the diseases selected from `dagassociation`, which you want to obtain the gene entropy values
 - `outdegree` out degree of each DAG in the directed PPI network
@@ -54,12 +55,12 @@ mutildisease_entropy(dagassociation = disease_gene,
 - `alpha` the scale paratemter to convert distance to probability
 - `scales` whether scale the entropy value for each disease or not
 
-*  Details
+###  Details
 
-*  Value
+###  Value
 An object of the class list is a list containing the entropy values of DAGs in each disease 
 
-*  Examples
+###  Examples
 ```
 entropy_list <- mutildisease_entropy(dagassociation = disease_gene,
                                      diseaseids = names(disease_gene),
@@ -76,12 +77,12 @@ entropy_list <- mutildisease_entropy(dagassociation = disease_gene,
 * `multi_DAG_class` Disease-gene classification based on the gene entropy value. 
 
 ------------------------------------------------------------------------------
- *  Description 
-* Usage 
- * Arguments 
-* Details 
- *  Value 
-*  Examples  
+### Description 
+### Usage 
+### Arguments 
+### Details 
+### Value 
+### Examples  
 ```
 dag_class_result <- multi_DAG_class(entropy_list = entropy_list)
 ``` 
