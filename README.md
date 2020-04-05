@@ -12,14 +12,14 @@ NOGEA: Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity
 
 ## Author
 Zihu Guo <br>
-Affilication: Center of Bioinformatics, Northwest A & F University
+Address: Center of Bioinformatics, Northwest A & F University
 
 ## Maintainer
 Zihu Guo <br>
 Email: <guozihu2010@yahoo.com>
 
 ## Description
-Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Drug Repositioning
+<center> Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Drug Repositioning
 
 ## Required packages
 - R (>3.6.0)
@@ -31,7 +31,7 @@ Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Dr
 
 ## Reference manual
 ------------------------------------------------------------------------------
-* `mutildisease_entropy` *calcualte gene entropy for each DAG in each disease.* 
+                          * `mutildisease_entropy` *calcualte gene entropy for each DAG in each disease.* 
 
 ------------------------------------------------------------------------------
 ###  Description
@@ -74,7 +74,7 @@ entropy_list <- mutildisease_entropy(dagassociation = disease_gene,
 
 
 ------------------------------------------------------------------------------
-* `multi_DAG_class` Disease-gene classification based on the gene entropy value. 
+                              * `multi_DAG_class` Disease-gene classification based on the gene entropy value. 
 
 ------------------------------------------------------------------------------
 ### Description 
