@@ -97,6 +97,7 @@ dag_class_result <- multi_DAG_class(entropy_list = entropy_list)
 
 
 ## Example to DAG entropy calculation and classification
+### open the file `NOGEA.Rproj` with Rstudio, you can find an complete example for DAG entropy calculation and gene classification
 #### Import the data, libraries and functions used in this research
 ```
 source("010-usefullibrary.R")
