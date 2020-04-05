@@ -30,7 +30,8 @@ Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Dr
 
 ## Reference manual
 ------------------------------------------------------------------------------
-`mutildisease_entropy` *calcualte gene entropy for each DAG in each disease.* 
+*`mutildisease_entropy` *calcualte gene entropy for each DAG in each disease.* 
+
 ------------------------------------------------------------------------------
 ### Description
 
@@ -43,12 +44,37 @@ Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Dr
 ### Value
 
 ### Examples
+```
+entropy_list <- mutildisease_entropy(dagassociation = disease_gene,
+                                     diseaseids = names(disease_gene),
+                                     outdegree = myoutdegree,
+                                     dagnetwork.distance = dagnetwork.distance,
+                                     dagbackground = all_genes,
+                                     alpha = 1.1,
+                                     scales = T)
+```
 
 
 
+------------------------------------------------------------------------------
+* `multi_DAG_class` Disease-gene classification based on the gene entropy value. 
 
+------------------------------------------------------------------------------
+### Description
 
-* `multi_DAG_class` Disease-gene classification based on the gene entropy value.
+### Usage
+
+### Arguments
+
+### Details
+
+### Value
+
+### Examples
+```
+dag_class_result <- multi_DAG_class(entropy_list = entropy_list)
+```
+
 
 ## Example to DAG entropy calculation and classification
 #### Import the data, libraries and functions used in this research
