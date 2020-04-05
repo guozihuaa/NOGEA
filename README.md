@@ -34,9 +34,9 @@ Email: <guozihu2010@yahoo.com>
 * `mutildisease_entropy` *calcualte gene entropy for each DAG in each disease.* 
 
 ------------------------------------------------------------------------------
-###  Description
+####  Description
 Calcualte gene entropy for each DAG in each disease
-###  Usage
+####  Usage
 ```
 mutildisease_entropy(dagassociation = disease_gene,
                                      diseaseids = names(disease_gene),
@@ -47,7 +47,7 @@ mutildisease_entropy(dagassociation = disease_gene,
                                      scales = T)
 ```
      
-###  Arguments
+####  Arguments
 - `dagassociation` a list of DAG vectors. Each DAG vector contain the gene names of the DAGs for that disease.
 - `diseaseids` the diseases selected from `dagassociation`, which you want to obtain the gene entropy values
 - `outdegree` out degree of each DAG in the directed PPI network
@@ -55,12 +55,12 @@ mutildisease_entropy(dagassociation = disease_gene,
 - `alpha` the scale paratemter to convert distance to probability
 - `scales` whether scale the entropy value for each disease or not
 
-###  Details
+####  Details
 
-###  Value
+####  Value
 An object of the class list is a list containing the entropy values of DAGs in each disease 
 
-###  Examples
+####  Examples
 ```
 entropy_list <- mutildisease_entropy(dagassociation = disease_gene,
                                      diseaseids = names(disease_gene),
@@ -78,12 +78,19 @@ entropy_list <- mutildisease_entropy(dagassociation = disease_gene,
 
 ------------------------------------------------------------------------------
 
-### Description 
-### Usage 
-### Arguments 
-### Details 
-### Value 
-### Examples  
+#### Description 
+Disease-gene classification based on the gene entropy value
+#### Usage 
+```
+multi_DAG_class(entropy_list = entropy_list)
+``` 
+#### Arguments
+- `entropy_lis`
+#### Details 
+
+#### Value 
+
+#### Examples  
 ```
 dag_class_result <- multi_DAG_class(entropy_list = entropy_list)
 ``` 
