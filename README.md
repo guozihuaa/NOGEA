@@ -34,14 +34,30 @@ Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Dr
 
 ------------------------------------------------------------------------------
 *  Description
-
+Calcualte gene entropy for each DAG in each disease
 *  Usage
-
+```
+mutildisease_entropy(dagassociation = disease_gene,
+                                     diseaseids = names(disease_gene),
+                                     outdegree = myoutdegree,
+                                     dagnetwork.distance = dagnetwork.distance,
+                                     dagbackground = all_genes,
+                                     alpha = 1.1,
+                                     scales = T)
+```
+     
 *  Arguments
+- `dagassociation` a list of DAG vectors. Each DAG vector contain the gene names of the DAGs for that disease.
+- `diseaseids` the diseases selected from `dagassociation`, which you want to obtain the gene entropy values
+- `outdegree` out degree of each DAG in the directed PPI network
+- `dagbackground` the gene names of proteins that are involved in the directed PPI network
+- `alpha` the scale paratemter to convert distance to probability
+- `scales` whether scale the entropy value for each disease or not
 
 *  Details
 
 *  Value
+An object of the class list is a list containing the entropy values of DAGs in each disease 
 
 *  Examples
 ```
