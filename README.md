@@ -60,20 +60,21 @@ entropy_list <- mutildisease_entropy(dagassociation = disease_gene,
 * `multi_DAG_class` Disease-gene classification based on the gene entropy value. 
 
 ------------------------------------------------------------------------------
-> * ### Description
+> * ### Description <br>
 
-> * ### Usage
+> * ### Usage <br>
 
-> * ### Arguments
+> * ### Arguments <br>
 
-> * ### Details
+> * ### Details <br>
 
-> * ### Value
+> * ### Value <br>
 
-> * ### Examples
+> * ### Examples <br>
 ```
 dag_class_result <- multi_DAG_class(entropy_list = entropy_list)
 ```
+<br>
 
 
 ## Example to DAG entropy calculation and classification
