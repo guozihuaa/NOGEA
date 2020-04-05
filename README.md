@@ -31,7 +31,7 @@ Email: <guozihu2010@yahoo.com>
 
 ## Reference manual
 ------------------------------------------------------------------------------
-                          * `mutildisease_entropy` *calcualte gene entropy for each DAG in each disease.* 
+* `mutildisease_entropy` *calcualte gene entropy for each DAG in each disease.* 
 
 ------------------------------------------------------------------------------
 ###  Description
@@ -74,7 +74,7 @@ entropy_list <- mutildisease_entropy(dagassociation = disease_gene,
 
 
 ------------------------------------------------------------------------------
-                              * `multi_DAG_class` Disease-gene classification based on the gene entropy value. 
+* `multi_DAG_class` Disease-gene classification based on the gene entropy value. 
 
 ------------------------------------------------------------------------------
 ### Description 
