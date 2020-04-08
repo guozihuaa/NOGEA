@@ -14,11 +14,11 @@ Rapid development of high-throughput technologies has permitted the identificati
 NOGEA: Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Drug Repositioning
 
 ## Author
-Zihu Guo <br>
+[Zihu Guo](https://orcid.org/0000-0003-3975-3141) <br>
 Address: Center of Bioinformatics, Northwest A & F University
 
 ## Maintainer
-Zihu Guo <br>
+[Zihu Guo](https://orcid.org/0000-0003-3975-3141) <br>
 Email: <guozihu2010@yahoo.com>
 
 ## Description
