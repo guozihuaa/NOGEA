@@ -127,4 +127,4 @@ dag_class_result <- multi_DAG_class(entropy_list = entropy_list)
 
 # Citation
 if you use NOGEA or NOGEA related methods please cite:<br>
-Guo Z, Fu Y, Huang C, Zheng C, Wu Z, Chen X, et al. *NOGEA: Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Drug Repositioning*. bioRxiv. 2020:2020.04.01.019901. doi: 10.1101/2020.04.01.019901.
+Guo Z, Fu Y, Huang C, Zheng C, Wu Z, Chen X, et al. *NOGEA: Network-Oriented Gene Entropy Approach for Dissecting Disease Comorbidity and Drug Repositioning*. bioRxiv. 2020:2020.04.01.019901. [doi: 10.1101/2020.04.01.019901.](https://www.biorxiv.org/content/10.1101/2020.04.01.019901v1)
